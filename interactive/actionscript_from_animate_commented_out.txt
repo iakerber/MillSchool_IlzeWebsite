@@ -1,0 +1,43 @@
+/* import flash.display.Loader;
+import flash.net.URLRequest;
+import flash.events.Event;
+import flash.display.Sprite;
+import flash.events.MouseEvent;*/
+
+/*var images:Array = ["indiana_d6341_op.jpg", "indiana_d7066_op.jpg", "indiana_d7358_op.jpg", "indiana_d7545_op.jpg", "indiana_d7872_op.jpg", "indiana_d8859_op.jpg", "indiana_d8877_franklin_op.jpg", "indiana_d8884_franklin_op.jpg"];
+
+var thumbX:Number = 30;
+var thumbY:Number = 418;
+
+var loader:Loader = new Loader();
+loader.load(new URLRequest("assets/indiana_d7066_op.jpg"));
+addChild(loader);
+
+addChild(thumbBg);
+fl_loadThumbs();
+
+function fl_loadThumbs():void
+{
+	var thumbLoader:Loader;
+	var container:Sprite = new Sprite();
+	addChild(container);
+	container.buttonMode = true;
+	for(var i:uint = 0; i < images.length; i++)
+	{
+		thumbLoader = new Loader();
+		thumbLoader.load(new URLRequest("assets_Indiana/thumbs/" + images[i]));
+		thumbLoader.x = thumbX;
+		thumbLoader.y = thumbY;
+		thumbX += 85;
+		container.addChild(thumbLoader);
+		thumbLoader.addEventListener(MouseEvent.CLICK, thumbClicked);
+	}
+}
+
+function thumbClicked(event:MouseEvent):void
+{
+	var path:String = event.currentTarget.contentLoaderInfo.url;
+	path = path.substr(path.lastIndexOf("/") + 1);
+	trace(path);
+	loader.load(new URLRequest("assets_Indiana/" + path))
+}*/
