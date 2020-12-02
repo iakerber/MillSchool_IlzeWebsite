@@ -1,0 +1,25 @@
+#overlay-container {	
+backgroundColor: black;
+float:left; 
+pointer-events:none; 
+overflow:hidden; 
+width:720px; 
+height:680px; 
+position: absolute; 
+left: 0px; 
+top: 0px; 
+
+}
+
+.side-by-side {
+  display: flex;
+  vertical-align: bottom;
+  
+}
+
+.column {
+	flex: 10%;
+	padding: 3px;
+	align-content: flex-end;
+}
+
