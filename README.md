@@ -1,2 +1,3 @@
 # MillSchool_IlzeWebsite
 Practice website for Ilze's skills
+This is a general website that I have been practicing on with help from Linked In as I am working through the Mill Code School weeks, and have put on also some examples of various things that I have done in the past, sort of like a quick bio website. I had various projects on there that I had done in Flash in the past as part of courses and other things. I have struggled through some of them to convert them to HTML5, but some remain unconverted. Also figured out how to make the Indiana Slideshow work with CSS and Javascript. A work in progress -- Ilze Akerbergs
